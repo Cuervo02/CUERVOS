@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HEAD, introduce enlaces y todo lo que no ve el usuario, tambien contiene el titulo de la pagina -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Pagina Web</title>
+
+</head>
+<!-- BODY, el cuerpo de la pagina web, es todo lo que si va a ver el usuario -->
+<body>
+    <!-- titulos, ocupan toda la linea de la caja que las contenga -->
+    <h1>Hola Mundo</h1>
+    <h2>Hola Mundo</h2>
+    <h3>Hola Mundo</h3>
+    <h4>Hola Mundo</h4>
+    <h5>Hola Mundo</h5>
+    <h6>Hola Mundo</h6> 
+<!-- p es parrafo -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <b>Dolor</b> fugit <b>libero</b>.<br>Nisi veniam quod suscipit quidem accusamus! Molestias voluptate eveniet optio in, temporibus, quisquam, suscipit quae atque error quos libero.</p>
+<!-- estilos de letras, ocupan solo lo que ocupa el contenido -->
+    <b>Negrita</b> <br> <!-- el br completa la linea, es como dar un enter en el texto, es un punto aparte  --> 
+    <i>Italica</i> <br>
+    <strike>Tachada</strike> <br>
+    <small>Chiquita</small> <br>
+<!-- enlaces -->
+<!-- los enlaces por fuera llevan http:// o https:// -->
+<a href="http://Facebook.com" target="_blank"> ENLACE A FACEBOOK</a><br> <!-- targer sirbe pra que el enlace se abra en otra pestaña  -->
+<!-- enlaces por dentro NO llevan http:// o https:// -->
+<a href="formularios.html" target="_blank"> ENLACE A PAGINA INTERNA FORMULARIOS</a><br>
+<!-- PARA ACCEDER A UNA PAGINA DENTRO DE UNA CARPETA SE COLOCA DIRECTAMENTE LA RURA (NOMBRE DE CARPETA/NOMBRE DE PAGINA) -->
+<a href="carpeta/nav.html" target="_blank">ENLACE A PAGINA DENTRO DE UNA CARPETA</a><br><br>
+
+<!-- LISTAS -->
+<h1>LISTA DE COMPRAS</h1>
+<ul>  <!-- HOJA DE LISTA-->
+    <!-- <li> xxx </li> ITEM DE LISTAS UNA DEBAJO DE OTRA -->
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ul>
+<!-- LISTA ORDENADA "ol" -->
+<h1>LISTA ORDENADA</h1>
+<ol>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ol><br>
+<!-- INGRESAR IMAGENES -->
+<h1>MI PRIMER IMAGEN MEME SKINER</h1>
+<!-- se llaman por ruta como los enlaces, si es imagen local llamar directamente y si es externa se llama con el enlace (https://) -->
+<img src="imagenes/meme skiner telescopio.jpg"><br>
+
+<h1>VIDEO DE ATOMO</h1>
+<!-- los videos a diferencia de las imagenes se cierran en la etiqueta y a parte hay que llamar al atributo controls para que figuren los botones o controles dentro del video (botones de reproducir, agrandar a pantalla completa, etc..) -->
+<video src="videos/atomos-13232.mp4" controls></video><br>
+
+<h1>AUDIO LA KUPPE</h1>
+<audio src="audios/y2mate.com - La Kuppe  Hoy La Vi Pasar LetraLyrics.mp3" controls></audio>
+
+</body>
+
+</html>
